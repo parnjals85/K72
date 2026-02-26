@@ -9,10 +9,12 @@ import LocomotiveScroll from 'locomotive-scroll'
 import Nav from './Pages/Navigation/Nav'
 import FullScreenNav from './Pages/Navigation/FullScreenNav'
 import NavContext from './Pages/Context/NavContext'
+import Agence_2 from './Pages/Agence/Agence_2'
 function App() {
  const scroll = new LocomotiveScroll();
 
   return (
+    
    <NavContext>
    <div className='overflow-x-hidden'>
     <FullScreenNav />

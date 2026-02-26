@@ -8,7 +8,7 @@ const Nav = () => {
     const [navColor, setNavColor] = useContext(NavbarColorContext) ?? ['white', () => {}]
 
     return (
-        <div className='z-4 flex fixed top-0 w-full items-start justify-between'>
+        <div className='z-4 flex fixed top-0 w-full items-start justify-between absolute'>
             <div className='lg:p-5 p-2 '>
                 <div className='lg:w-36 w-24'>
                     <Link to={'/'}>
